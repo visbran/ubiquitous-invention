@@ -1,5 +1,5 @@
 const BLOG = {
-  title: 'eyetee',
+  title: 'EyeTee',
   author: 'Visbran',
   email: 'contact@visbran.fr',
   link: 'https://blog.visbran.fr',
