@@ -3,8 +3,8 @@ const BLOG = {
   author: 'Visbran',
   email: 'contact@visbran.fr',
   link: 'https://blog.visbran.fr',
-  newsletter: 'Notionic Weekly',
-  description: 'A static blog build on top of Notion and Next.js',
+  newsletter: 'Newsletter de la semaine',
+  description: 'Lobjectif principal de ce blog est den faire une sorte de bibliothèque de données ou je peux retrouver facilement, installation configuration & autre lié au domaine du web de l&informatique',
   lang: 'fr-FR', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Europe/Paris', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -26,7 +26,7 @@ const BLOG = {
   showWeChatPay: true,
   previewImagesEnabled: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
-  ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
+  ogImageGenerateHost: 'og-zl.vercel.app/api/default?background=https%3A%2F%2Fi.ibb.co%2F2c8j3jm%2Fcool-background.png&border=solid&description=tl%3Adr&logo=https%3A%2F%2Fimg.icons8.com%2Fclouds%2F100%2Fnull%2Fcyber-security.png&siteName=blog.visbran.fr&summary=.&theme=light&title=.', // The link to generate OG image, don't end with a slash
   defaultCover: '/cover.jpg',
   socialLink: {
     twitter: 'https://twitter.com/visbran',
@@ -34,7 +34,7 @@ const BLOG = {
     telegram: 'https://t.me/visbran'
   },
   seo: {
-    keywords: ['Informatique', 'sysadmin', 'Blog'],
+    keywords: ['sysadmin', 'blog', 'blog administrateur système', 'tuto informatique', 'blog informatique geek', 'devops', 'linux'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
