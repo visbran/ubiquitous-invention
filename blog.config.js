@@ -23,10 +23,10 @@ const BLOG = {
     books: false,
     friends: false
   },
-  showWeChatPay: true,
+  showWeChatPay: false,
   previewImagesEnabled: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
-  ogImageGenerateHost: 'og-zl.vercel.app/api/default?background=https%3A%2F%2Fi.ibb.co%2F2c8j3jm%2Fcool-background.png&border=solid&description=tl%3Adr&logo=https%3A%2F%2Fimg.icons8.com%2Fclouds%2F100%2Fnull%2Fcyber-security.png&siteName=blog.visbran.fr&summary=.&theme=light&title=.', // The link to generate OG image, don't end with a slash
+  ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
   defaultCover: '/cover.jpg',
   socialLink: {
     twitter: 'https://twitter.com/visbran',
@@ -42,7 +42,7 @@ const BLOG = {
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
   notionDomain: 'visbran.notion.site',
   telegramToken: process.env.TELEGRAM_TOKEN, // The token of your Telegram bot
-  telegramChatId: '263895784', // The chat id of your Telegram bot
+  telegramChatId: '5201687162', // The chat id of your Telegram bot
   telegramChannelUrl: 'https://channel.visbran.fr', // The link of your Telegram channel
   telegramChannelName: 'visbran', // The name of your Telegram channel
   craftConfigShareUrl: 'https://www.craft.do/s/kQtcWqkv98cHhB', // The link to share your craft config
@@ -67,10 +67,10 @@ const BLOG = {
   },
   comment: {
     // support provider: utterances, supacomments
-    provider: '', // leave it empty if you don't need any comment plugin
+    provider: 'supacomments', // leave it empty if you don't need any comment plugin
     supaCommentsConfig: {
-      supabaseUrl: '', // The url of your Supabase instance
-      supabaseAnonKey: '' // The anonymous key of your Supabase instance
+      supabaseUrl: 'https://xzuujlopamxvbsxseqag.supabase.co', // The url of your Supabase instance
+      supabaseAnonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh6dXVqbG9wYW14dmJzeHNlcWFnIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODI2MTM4NzUsImV4cCI6MTk5ODE4OTg3NX0.HjhiImgqGZgu2cIf-NbrQHggjxVbjHBX5nP8GY-vWcc' // The anonymous key of your Supabase instance
     },
     utterancesConfig: {
       repo: ''
