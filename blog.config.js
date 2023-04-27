@@ -43,7 +43,7 @@ const BLOG = {
   notionDomain: 'visbran.notion.site',
   telegramToken: process.env.TELEGRAM_TOKEN, // The token of your Telegram bot
   telegramChatId: '5201687162', // The chat id of your Telegram bot
-  telegramChannelUrl: 'https://channel.visbran.fr', // The link of your Telegram channel
+  telegramChannelUrl: 'https://t.me/+djCSlks9jZQ2YjBk', // The link of your Telegram channel
   telegramChannelName: 'visbran', // The name of your Telegram channel
   craftConfigShareUrl: 'https://www.craft.do/s/kQtcWqkv98cHhB', // The link to share your craft config
   analytics: {
