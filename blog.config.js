@@ -55,7 +55,7 @@ const BLOG = {
     },
     cfConfig: {
       scriptUrl: 'https://static.cloudflareinsights.com/beacon.min.js', // Default
-      token: '' // Like '{"token": "xxxxxxxxxxxxxxxxxx"}'
+      token: '136b89e602fc41eea857678bf9b3ef7b' // Like '{"token": "xxxxxxxxxxxxxxxxxx"}'
     },
     gaConfig: {
       measurementId: '' // e.g: G-XXXXXXXXXX
