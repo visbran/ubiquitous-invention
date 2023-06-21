@@ -20,8 +20,6 @@ import { motion } from 'framer-motion'
 
 const NavBar = () => {
   const router = useRouter()
-  const { locale } = useRouter()
-  const t = lang[locale]
   const [showMenu, setShowMenu] = useState(false)
 
   let activeMenu = ''
@@ -94,7 +92,6 @@ const NavBar = () => {
 
       <div className='nav-func-btn block'>
         <ThemeSwitcher />
-        <LangSwitcher />
       </div>
 
       {/* Mobile Phone Menu */}
