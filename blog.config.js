@@ -5,7 +5,7 @@ const BLOG = {
   link: 'https://blog.visbran.fr',
   newsletter: 'Newsletter de la semaine',
   description: 'Comprendra qui pourra',
-  lang: 'fr-FR', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  //lang: 'fr-FR', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Europe/Paris', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
