@@ -2,7 +2,7 @@ import { useEffect, useCallback, useState, useRef } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import BLOG from '@/blog.config'
-//import { lang } from '@/lib/lang'
+import { lang } from '@/lib/lang'
 import { useRouter } from 'next/router'
 import {
   HomeIcon,
